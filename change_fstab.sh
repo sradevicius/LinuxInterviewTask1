@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sed -i.bak 's/\(^abc\)\(.*nfs.*\)/xyz\2/gi' fstab
+sed -i.$(date +%F) 's/\(^abc\)\(.*nfs.*\)/xyz\2/gi' fstab

@@ -6,6 +6,6 @@
 /dev/vg/opt /opt ext4 data=ordered 0 2
 /dev/vg/home /home xfs noatime 0 0
 UUID=3c00c10f-ce64-430c-9a1a-db1abc0bba82 /boot ext4 data=ordered 0 2
-xyz123.example.com:/shareabc /mnt/abc nfs _netdev,bg,tcp,harntr 0 0
+abc123.example.com:/shareabc /mnt/abc nfs _netdev,bg,tcp,harntr 0 0
 123abc.example.com:/share1 /mnt/1 nfs _netdev,bg,tcp,harntr 0 0
-xyz123.example.com:/share2 /mnt/2 nfs _netdev,bg,tcp,harntr 0 0
+ABC123.example.com:/share2 /mnt/2 nfs _netdev,bg,tcp,harntr 0 0
